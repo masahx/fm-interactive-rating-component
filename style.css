@@ -38,12 +38,25 @@ body {
 
 }
 
+footer, header {
+
+    height: 50%;
+
+}
+
+footer {
+
+    display: flex;
+    justify-self: center;
+    align-items: center;
+
+}
 .content {
     
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     height: 100vh;
 
 }
@@ -51,7 +64,7 @@ body {
 section { 
 
     color: var(--text-font);
-    margin: 0 50px 25px;
+    margin: 0 50px;
     background-color: var(--card-bck);
     border-radius: 12px;
     padding: 32px 40px 28px 30px; 
@@ -222,6 +235,13 @@ button p {
 
 }
 
+.attribution p {
+
+    font-size: 11px;
+    
+}
+
+
 
 @media only screen and (max-width: 459px) {
     
@@ -298,19 +318,13 @@ button p {
 
     }
      
-    .attribution p {
-
-        font-size: 11px;
-
-    }
+    
 
     .thanks > p {
     
         width: 275px;
         margin-bottom: 10px;
     
-    }
-
-   
+    }   
 
 }

@@ -1,6 +1,5 @@
-const class1 = "mark";
+  const class1 = "mark";
   const class2 = "circle";
-  var test = false;
 
   let oLista = document.getElementsByTagName("ol")[0];
   
