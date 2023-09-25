@@ -4,7 +4,7 @@
     --text-font: hsl(217, 12%, 63%);
     --button: hsl(216, 12%, 54%); 
     --card-bck: hsla(213, 19%, 18%, 0.6);
-    --circle-bck: hsla(213, 19%, 18%, 1);  /* hsl(215, 20%, 25%);      */
+    --circle-bck: hsla(213, 19%, 18%);  
     --main-color: hsl(25, 97%, 53%);
     --background: hsl(216, 12%, 8%);
     --font: 15px 'Overpass', sans-serif;
@@ -35,6 +35,11 @@ body {
     font: var(--font);
     margin: 0;
     background-color: var(--background);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 
 }
 
@@ -51,6 +56,7 @@ footer {
     align-items: center;
 
 }
+
 .content {
     
     display: flex;
@@ -152,6 +158,8 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    letter-spacing: 1.5px;
+    font-size: 15px;     
 
 }
 
@@ -159,14 +167,6 @@ button:active {
 
     background-color: var(--h-font);
     color: var(--main-color);
-
-}
-
-button p {
-
-    margin: 0;    
-    letter-spacing: 1.5px;
-    font: 15px; 
 
 }
 
@@ -295,11 +295,10 @@ button p {
     
     }
     
-    button p {
+    button {
             
         font-size: 13px; 
         line-height: 1;
-        padding: 0;
 
     }
      

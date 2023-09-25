@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
   <title>Frontend Mentor | Interactive rating component | JASMINE</title>
 
@@ -28,35 +28,36 @@
   </style>
 </head>
 <body>
-  <div class="content">
+ <!-- <div class="content"> -->
     <header></header>
-    <div class="cards">
+    <main class="cards">
       <!-- Rating state start -->
       <section class="rating">
         <div class="container-r">
-          <div class="icon circle">
+          <figure class="icon circle">
             <img src="images/icon-star.svg" alt="icon star" width="18" height="17">
-          </div>
-          <h1>How did we do?</h1>
-          
-          <p>
-            Please let us know how we did with your support request. All feedback is appreciated 
-            to help us improve our offering!
-          </p>
+          </figure>
+          <section>
+            <h1>How did we do?</h1>
+            
+            <p>
+              Please let us know how we did with your support request. All feedback is appreciated 
+              to help us improve our offering!
+            </p>
 
-          <ol>
-        <!--    <li class="mark circle"></li> -->
-          </ol>
-          
+            <ol>
+          <!--    <li class="mark circle"></li> -->
+            </ol>
+          </section>
 
-          <button onclick="submit();"><p>Submit</p></button>  
+          <button onclick="submit();">Submit</button>  
         </div> 
       </section>
       <!-- Rating state end -->
 
       <!-- Thank you state start -->
       <section class="thanks off" id="thanks">
-        <img src="images/illustration-thank-you.svg" alt="thank you illustration" /> <!-- -->        
+        <img src="images/illustration-thank-you.svg" alt="thank you illustration"> <!-- -->        
         <div class="result">
           <p>
             You selected <span class="resolved-mark">x</span> out of 5
@@ -71,7 +72,7 @@
         </p>
       </section>
       <!-- Thank you state end -->
-    </div>  
+    </main>  
     <button class="back off" onclick="goBack();">Go to marks</button>
     <footer class="attribution">
       <p>
@@ -79,7 +80,7 @@
         Coded by mhx.
       </p>
     </footer>
-  </div>
+ <!-- </div> -->
   <!-- include source files here... 
   <script src="Responsive sticky navbar/script-mh.js"></script> -->
   <script src="src/JSMark.js"></script>
