@@ -67,7 +67,13 @@ footer {
 
 }
 
-section { 
+figure {
+
+    margin: 0;
+
+}
+
+.rating, .thanks { 
 
     color: var(--text-font);
     margin: 0 50px;
@@ -77,7 +83,7 @@ section {
        
 }
 
-h1 {
+h2 {
 
     font-weight: 700;
     font-size: 24px;    
@@ -219,7 +225,7 @@ button:active {
     width: 162px;
 }
 
-.thanks h1 {
+.thanks h2 {
 
     line-height: 1;
     margin: 0 0 17px;
@@ -251,14 +257,14 @@ button:active {
 
     }
 
-    section {
+    .ratings, .thanks {
               
         border-radius: 10px;
         padding: 24px 25px 30px; 
 
     }
 
-    h1 {
+    h2 {
         
         font-size: 23px;   
         margin: 23px 0 17px;
