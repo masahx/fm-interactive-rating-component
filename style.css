@@ -83,7 +83,7 @@ figure {
        
 }
 
-h2 {
+h1 {
 
     font-weight: 700;
     font-size: 24px;    
@@ -225,7 +225,7 @@ button:active {
     width: 162px;
 }
 
-.thanks h2 {
+.thanks h1 {
 
     line-height: 1;
     margin: 0 0 17px;
@@ -264,7 +264,7 @@ button:active {
 
     }
 
-    h2 {
+    h1 {
         
         font-size: 23px;   
         margin: 23px 0 17px;
